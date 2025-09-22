@@ -23,6 +23,9 @@ function NavBare() {
           <Link to="/about">About</Link>
         </li>
         <li className="hover:text-gray-200">
+       <Link to="/skills">Skills</Link>
+        </li>
+        <li className="hover:text-gray-200">
           <Link to="/projects">Projects</Link>
         </li>
         <li className="hover:text-gray-200">
@@ -48,6 +51,9 @@ function NavBare() {
           <li onClick={() => setIsOpen(false)}>
             <Link to="/about">About</Link>
           </li>
+          <li onClick={() => setIsOpen(false)}>
+       <Link to="/skills">Skills</Link>
+          </li> 
           <li onClick={() => setIsOpen(false)}>
             <Link to="/projects">Projects</Link>
           </li>

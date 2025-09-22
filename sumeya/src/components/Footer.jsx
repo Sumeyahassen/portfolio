@@ -1,11 +1,36 @@
-import React from 'react'
+import { FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <footer className="bg-gray-900 text-white py-8 px-6">
+      <div className="max-w-4xl mx-auto flex justify-center space-x-6">
+        <a
+          href="https://www.instagram.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="text-2xl hover:text-pink-500" />
+        </a>
+        <a
+          href="https://t.me/yourchannel"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTelegram className="text-2xl hover:text-blue-400" />
+        </a>
+        <a
+          href="https://www.tiktok.com/@yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTiktok className="text-2xl hover:text-black" />
+        </a>
+      </div>
+      <p className="text-center text-sm text-gray-400 mt-6">
+        © 2025 Sumeya Hassen. All rights reserved.
+      </p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
