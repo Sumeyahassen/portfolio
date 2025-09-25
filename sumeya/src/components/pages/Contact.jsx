@@ -63,7 +63,7 @@ function Contact() {
             onChange={handleChange}
             className="w-full border px-3 py-2 dark:text-gray-800 rounded focus:outline-none focus:ring focus:ring-blue-300"
           ></textarea>
-          <button className="w-full bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition" onClick={handleSubmit ? alert("Message sent successfully!"): alert("Failed to send message")}>
+          <button className="w-full bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition" >
             Send Message
           </button>
         </form>

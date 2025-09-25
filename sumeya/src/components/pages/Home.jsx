@@ -37,11 +37,16 @@ function Home() {
           real-world problems.
         </p>
 
-        <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 size-lg" >
-         <a href="#about">More</a>
+        <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 size-lg">
+          <a href="#about">More</a>
         </button>
         <button className="mt-4 px-6 ml-2 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
-          Download CV
+          <a
+            href="/Sumeya_Hassen_CV.pdf"
+            download="Sumeya_Hassen_CV.pdf"
+          >
+            Download CV
+          </a>
         </button>
       </div>
 
