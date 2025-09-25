@@ -34,7 +34,7 @@ function Skills() {
           <SiJavascript className="text-yellow-400 text-4xl" />
           <SiDart className="text-blue-400 text-4xl" />
           <FaJava className="text-red-600 text-4xl" />
-          <SiPython className="text-blue-500 text-4xl" />
+          <SiPython className="text-yellow-300 text-4xl" />
           <SiCplusplus className="text-blue-800 text-4xl" />
         </div>
       ),
@@ -64,7 +64,7 @@ function Skills() {
       icon: (
         <div className="flex space-x-3">
           <SiMongodb className="text-green-600 text-4xl" />
-          <SiMysql className="text-blue-700 text-4xl" />
+          <SiMysql className="text-brown-700 text-4xl dark:text-gray-500" />
         </div>
       ),
     },
@@ -94,16 +94,16 @@ function Skills() {
   ];
 
   return (
-    <section className="min-h-screen  bg-gray-100 flex flex-col items-center px-6 py-12">
+    <section  className="min-h-screen  flex flex-col items-center px-6 py-12">
       <h1 className="text-4xl font-bold mb-10">My Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {skills.map((skill, idx) => (
           <div
             key={idx}
-            className="flex flex-col items-center bg-white p-20 rounded-lg shadow hover:scale-105 transition-transform"
+            className="flex flex-col items-center bg-white dark:bg-gray-200 p-20 rounded-lg shadow hover:scale-110 transition-transform"
           >
             {skill.icon}
-            <p className="mt-4 font-semibold text-lg">{skill.name}</p>
+            <p className="mt-4 font-semibold text-lg dark:text-gray-800">{skill.name}</p>
           </div>
         ))}
       </div>

@@ -19,30 +19,28 @@ END:VCARD
 
   // ✅ Shadcn Button
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 px-6 gap-12">
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen px-6 gap-12">
       {/* Description */}
       <div className="max-w-xl text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold  mb-4  size-35">👨‍💻</h1>
-        <p className="text-lg text-gray-700 mb-6">
-          <span className="font-semibold text-blue-600 text-4xl"> Hi</span>, I’m{" "}
-          <span className="font-semibold text-blue-800">Sumeya Hassen</span>, a
-          passionate software developer specializing in{" "}
+        <p className="text-lg text-gray-700 dark:text-gray-200 mb-6">
+          <span className="font-semibold text-blue-600 text-8xl"> Hi</span>, I’m{" "}
+          <span className="font-semibold text-blue-800 dark:text-blue-400 text-xl">
+            Sumeya Hassen
+          </span>
+          , a passionate software developer specializing in{" "}
           <b>Flutter mobile apps</b> and the <b>MERN stack</b> for web
           development. I love solving real-world problems through clean,
-          creative, and scalable code.
-          Currently, I’m a 
+          creative, and scalable code. Currently, I’m a
           <span className="font-semibold">
-             Software Engineering student at Bahir Dar University
+            Software Engineering student at Bahir Dar University
           </span>
           .
         </p>
 
         {/* ✅ Shadcn Button */}
-        <Button
-          className="bg-blue-500 hover:bg-blue-600 text-white"
-          onClick={() => window.open("mailto:sumeyahassensumi@gmail.com")}
-        >
-          Contact Me
+        <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+          <a href="#contact"> Contact Me</a>
         </Button>
       </div>
 
@@ -56,7 +54,7 @@ END:VCARD
           level={"H"}
           includeMargin={true}
         />
-        <p className="text-md text-gray-700 mt-2 inline-flex items-center gap-2">
+        <p className="text-lg text-gray-700 dark:text-gray-200 mt-2 inline-flex items-center gap-2">
           <FaMobileAlt size={30} color="blue" /> Scan for my contact info
         </p>
       </div>

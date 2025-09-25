@@ -1,10 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import myImage from "../../assets/Sumeya.png";
-import { useNavigate } from "react-router-dom";
 
 function Home() {
-  const navigate = useNavigate();
   const roles = [
     "🚀 Flutter Developer",
     "⚡ MERN Stack Developer",
@@ -12,10 +10,10 @@ function Home() {
   ];
 
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 bg-gray-100">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 ">
       {/* Left Side (Text) */}
       <div className="text-center md:text-left md:w-1/2 space-y-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">
           Hi, I'm <span className="text-blue-600">Sumeya Hassen</span>
         </h1>
 
@@ -24,7 +22,7 @@ function Home() {
           {roles.map((role, index) => (
             <motion.p
               key={index}
-              className="text-lg text-gray-700 font-medium"
+              className="text-lg text-gray-700 dark:text-gray-200 font-medium"
               initial={{ y: 40, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: index * 0.6 }}
@@ -34,13 +32,13 @@ function Home() {
           ))}
         </div>
 
-        <p className="text-gray-600 max-w-md">
+        <p className="text-gray-600 dark:text-gray-300 max-w-md">
           I build creative, functional, and user-friendly apps that solve
           real-world problems.
         </p>
 
-        <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 size-lg" onClick={() => navigator("/about")}>
-         More
+        <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 size-lg" >
+         <a href="#about">More</a>
         </button>
         <button className="mt-4 px-6 ml-2 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
           Download CV

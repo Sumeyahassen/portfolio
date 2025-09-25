@@ -2,7 +2,7 @@ import { FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-8 px-6">
+    <footer className="bg-gray-700 dark:bg-gray-800 text-white py-4 px-6">
       <div className="max-w-4xl mx-auto flex justify-center space-x-6">
         <a
           href="https://www.instagram.com/yourusername"
@@ -23,7 +23,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTiktok className="text-2xl hover:text-black" />
+          <FaTiktok className="text-2xl hover:text-gray-500" />
         </a>
       </div>
       <p className="text-center text-sm text-gray-400 mt-6">
