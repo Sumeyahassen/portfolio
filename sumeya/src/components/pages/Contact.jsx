@@ -45,6 +45,7 @@ function Contact() {
           <input
             type="text"
             name="name"
+            required
             placeholder="Your Name"
             onChange={handleChange}
             className="w-full border px-3 py-2 rounded focus:outline-none focus:ring focus:ring-blue-300"
@@ -52,6 +53,7 @@ function Contact() {
           <input
             type="email"
             name="email"
+            required
             placeholder="Your Email"
             onChange={handleChange}
             className="w-full border px-3 py-2 rounded focus:outline-none focus:ring focus:ring-blue-300"
@@ -59,6 +61,7 @@ function Contact() {
           <textarea
             rows="4"
             name="message"
+            required
             placeholder="Your Message"
             onChange={handleChange}
             className="w-full border px-3 py-2 dark:text-gray-800 rounded focus:outline-none focus:ring focus:ring-blue-300"
