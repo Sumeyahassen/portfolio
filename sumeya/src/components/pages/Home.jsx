@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import myImage from "../../assets/Sumeya.png";
+import myImage from "../../assets/a.png";
 
 function Home() {
   const roles = [
