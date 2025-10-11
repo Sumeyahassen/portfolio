@@ -6,7 +6,7 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-
+// import ContactApi from "../../api/ContactApi";  
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",

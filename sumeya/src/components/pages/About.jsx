@@ -9,11 +9,12 @@ BEGIN:VCARD
 VERSION:3.0
 FN:Sumeya Hassen
 TITLE:Flutter Developer | MERN Stack Developer
-ORG:Bahir Dar University
+ORG:Bahir Dar University,Departement of software Engineering
 EMAIL:sumeyahassensumi@gmail.com
 TEL:+251912380076
 URL:https://github.com/sumeyahassen
 URL:https://www.linkedin.com/in/sumeya-hassen-9711092a1/
+url:https://t.me/SumeyaHassen
 END:VCARD
 `;
 
@@ -22,7 +23,7 @@ END:VCARD
     <section className="flex flex-col md:flex-row items-center justify-center min-h-screen px-6 gap-12">
       {/* Description */}
       <div className="max-w-xl text-center md:text-left">
-        <h1 className="text-4xl md:text-5xl font-bold  mb-4  size-35">👨‍💻</h1>
+        <h1 className="text-4xl md:text-5xl font-bold  mb-4  size-35 sm:mt-10">👨‍💻</h1>
         <p className="text-lg text-gray-700 dark:text-gray-200 mb-6">
           <span className="font-semibold text-blue-600 text-8xl"> Hi</span>, I’m{" "}
           <span className="font-semibold text-blue-800 dark:text-blue-400 text-xl">
@@ -53,8 +54,9 @@ END:VCARD
           fgColor={"#000000"}
           level={"H"}
           includeMargin={true}
+          className="rounded-lg shadow-lg mb-4"
         />
-        <p className="text-lg text-gray-700 dark:text-gray-200 mt-2 inline-flex items-center gap-2">
+        <p className="text-xl text-gray-700 dark:text-gray-200 mt-2 inline-flex items-center gap-2">
           <FaMobileAlt size={30} color="blue" /> Scan for my contact info
         </p>
       </div>
