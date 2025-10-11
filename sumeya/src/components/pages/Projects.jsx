@@ -16,7 +16,7 @@ function Projects() {
         Mobile Apps
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-gray-50 p-4 rounded-lg shadow">
+        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
             Parmacityical prodact indicater App
           </h3>
@@ -29,7 +29,7 @@ function Projects() {
             className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2"
             onClick={() =>
               window.open(
-                "https://github.com/SumeyaHassen/Par-Project-Recognition"
+                "https://github.com/Sumeyahassen/https-github.com-Sumeyahassen-Agelgel1.git"
               )
             }
           >
@@ -37,7 +37,7 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-gray-50 p-4 rounded-lg shadow">
+        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
             Derash Mobile Antithife app
           </h3>
@@ -50,7 +50,7 @@ function Projects() {
             className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2"
             onClick={() =>
               window.open(
-                "https://github.com/SumeyaHassen/Derash-Project-Recognition"
+                "https://github.com/Sumeyahassen/Derash-AntiTheft-App.git"
               )
             }
           >
@@ -58,7 +58,7 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-gray-50 p-4 rounded-lg shadow">
+        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
             Campase student supported App
           </h3>
@@ -69,7 +69,7 @@ function Projects() {
           />
           <Button
             className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2"
-            onClick={() => window.open("https://github.com/SumeyaHassen/BDU")}
+            onClick={() => window.open("https://github.com/Sumeyahassen/BDU-SUPPORT-APP.git")}
           >
             View <AiFillGithub />
           </Button>
