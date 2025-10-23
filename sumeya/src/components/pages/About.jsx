@@ -1,6 +1,6 @@
 import React from "react";
 import { QRCodeCanvas } from "qrcode.react";
-import {Button} from "../ui/button" // ✅ shadcn button
+import { Button } from "../ui/button"; // ✅ shadcn button
 import { FaMobileAlt } from "react-icons/fa"; // mobile phone icon
 
 function About() {
@@ -17,13 +17,13 @@ URL:https://www.linkedin.com/in/sumeya-hassen-9711092a1/
 url:https://t.me/SumeyaHassen
 END:VCARD
 `;
-
-  // ✅ Shadcn Button
   return (
     <section className="flex flex-col md:flex-row items-center justify-center min-h-screen px-6 gap-12">
       {/* Description */}
       <div className="max-w-xl text-center md:text-left">
-        <h1 className="text-4xl md:text-5xl font-bold  mb-4  size-35 sm:mt-10">👨‍💻</h1>
+        <h1 className="text-4xl md:text-5xl font-bold  mb-4  size-35 sm:mt-10">
+          👨‍💻
+        </h1>
         <p className="text-lg text-gray-700 dark:text-gray-200 mb-6">
           <span className="font-semibold text-blue-600 text-8xl"> Hi</span>, I’m{" "}
           <span className="font-semibold text-blue-800 dark:text-blue-400 text-xl">
