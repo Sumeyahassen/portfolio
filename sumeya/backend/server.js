@@ -1,5 +1,5 @@
 import express from "express";
-import cors from "cors";
+import cors from "cors";//used to lick in middle ware
 import bodyParser from "body-parser";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
@@ -10,8 +10,10 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 5000;
-
+const PORT = process.env.PORT || 7000;
+app.get("/send-email",(req,res)=>{
+  res.send("Hello from the backend!");
+})
 app.post("/send-email", async (req, res) => {
   const { name, email, message } = req.body;
 

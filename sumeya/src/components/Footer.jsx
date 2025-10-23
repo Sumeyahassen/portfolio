@@ -23,7 +23,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTiktok className="text-2xl hover:text-gray-500" />
+          <FaTiktok className="text-2xl hover:text-black" />
         </a>
       </div>
       <p className="text-center text-sm text-gray-400 mt-6">
