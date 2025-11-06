@@ -43,7 +43,7 @@ function Skills() {
       name: "Frontend",
       icon: (
         <div className="flex space-x-3">
-          <FaReact className="text-blue-600 text-4xl" />
+          <FaReact className="text-blue-600 text-4xl hover:scale-110 transition-transform" />
           <SiFlutter className="text-blue-400 text-4xl" />
           <SiTailwindcss className="text-blue-400 text-4xl" />
           <SiBootstrap className="text-purple-600 text-4xl" />
