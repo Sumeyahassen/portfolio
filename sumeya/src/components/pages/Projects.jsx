@@ -2,9 +2,10 @@ import React from "react";
 import { Button } from "../ui/button";
 import { AiFillGithub } from "react-icons/ai";
 import bdu from "@/assets/bdu.png";
-import par from "@/assets/par.png";
-import derash from "@/assets/derash.png";
 import admin from "@/assets/admin.png";
+import shoose from "@/assets/Shoose.png";
+import bank from "@/assets/bank.png";
+import farmatec from "@/assets/farmatec.png";
 
 function Projects() {
   return (
@@ -16,20 +17,21 @@ function Projects() {
         Mobile Apps
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-gray-50 p-4 rounded-lg shadow">
-          <h3 className="font-medium text-center">
-            Parmacityical prodact indicater App
-          </h3>
-          <img
-            src={par}
-            alt="Mobile Project 1"
-            className="h-80 w-full object-cover rounded-lg mt-2"
-          />
+        {/* Project 1 */}
+        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
+          <h3 className="font-medium text-center">Shoose e-commers app</h3>
+          <div className="flex justify-center">
+            <img
+              src={shoose}
+              alt="Mobile Project 1"
+              className="w-auto h-72 object-contain rounded-lg mt-2"
+            />
+          </div>
           <Button
-            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2"
+            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center justify-center gap-2 w-full"
             onClick={() =>
               window.open(
-                "https://github.com/SumeyaHassen/Par-Project-Recognition"
+                "https://github.com/Sumeyahassen/https-github.com-Sumeyahassen-Agelgel1.git"
               )
             }
           >
@@ -37,20 +39,23 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-gray-50 p-4 rounded-lg shadow">
+        {/* Project 2 */}
+        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
-            Derash Mobile Antithife app
+            Power learn african bank app
           </h3>
-          <img
-            src={derash}
-            alt="Mobile Project 2"
-            className="h-80 w-full object-cover rounded-lg mt-2"
-          />
+          <div className="flex justify-center">
+            <img
+              src={bank}
+              alt="Mobile Project 2"
+              className="w-auto h-72 object-contain rounded-lg mt-2"
+            />
+          </div>
           <Button
-            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2"
+            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center justify-center gap-2 w-full"
             onClick={() =>
               window.open(
-                "https://github.com/SumeyaHassen/Derash-Project-Recognition"
+                "https://github.com/Sumeyahassen/Derash-AntiTheft-App.git"
               )
             }
           >
@@ -58,18 +63,23 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-gray-50 p-4 rounded-lg shadow">
+        {/* Project 3 */}
+        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
-            Campase student supported App
+            Campus Student Support App
           </h3>
-          <img
-            src={bdu}
-            alt="Mobile Project 3"
-            className="h-80 w-full object-cover rounded-lg mt-2"
-          />
+          <div className="flex justify-center">
+            <img
+              src={bdu}
+              alt="Mobile Project 3"
+              className="w-auto h-72 object-contain rounded-lg mt-2"
+            />
+          </div>
           <Button
-            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2"
-            onClick={() => window.open("https://github.com/SumeyaHassen/BDU")}
+            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center justify-center gap-2 w-full"
+            onClick={() =>
+              window.open("https://github.com/Sumeyahassen/BDU-SUPPORT-APP.git")
+            }
           >
             View <AiFillGithub />
           </Button>
@@ -82,11 +92,11 @@ function Projects() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="bg-cyan-50 p-4 rounded-lg shadow">
-          <h3 className="font-medium">Web Project 1</h3>
+          <h3 className="font-medium">Health emegensiy Supported web App</h3>
           <img
-            src={admin}
+            src={farmatec}
             alt="Web Project 1"
-            className="h-40 w-full object-cover rounded-lg mt-2"
+            className="h-100 w-full object-cover rounded-lg mt-2"
           />
           <Button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2">
             View <AiFillGithub />
@@ -94,7 +104,7 @@ function Projects() {
         </div>
 
         <div className="bg-orange-50 p-4 rounded-lg shadow">
-          <h3 className="font-medium">Web Project 2</h3>
+          <h3 className="font-medium">Randem Chat app Admin Dashbord</h3>
           <img
             src={admin}
             alt="Web Project 2"
@@ -106,7 +116,7 @@ function Projects() {
         </div>
 
         <div className="bg-red-50 p-4 rounded-lg shadow">
-          <h3 className="font-medium">Web Project 3</h3>
+          <h3 className="font-medium">My portipoliyo website</h3>
           <img
             src={admin}
             alt="Web Project 3"

@@ -1,9 +1,10 @@
 import React from "react";
 import cpp from "@/assets/c++.png";
-import html from "@/assets/html.png";
 import android from "@/assets/andro.png";
 import hult from "@/assets/hultg.png";
 import bit from "@/assets/bit.png";
+import frontend from "@/assets/ethiodencer.jpg";
+import agrigard from "@/assets/agrigard.jpg"
 
 function Certificates() {
   const learningCerts = [
@@ -14,10 +15,10 @@ function Certificates() {
       img: android,
     },
     {
-      title: "HTML, CSS, C++, SQL",
-      issuer: "Sololearn",
-      year: "2023",
-      img: html,
+      title: "HTML, CSS,JS,React",
+      issuer: "EthioDen",
+      year: "2025",
+      img: frontend,
     },
     {
       title: "PLP Program - Software Development",
@@ -44,7 +45,7 @@ function Certificates() {
       title: "Best Innovative Idea",
       issuer: "Bahir Dar University",
       year: "2025",
-      img: "/certificates/bdu.png", // fallback path
+      img: agrigard, // fallback path
     },
   ];
 
@@ -55,14 +56,14 @@ function Certificates() {
       <div className="grid grid-cols-1 md:grid-rows-2 gap-10">
         {/* Learning Certificates */}
         <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow">
-          <h2 className="text-2xl font-semibold mb-6 text-blue-600 text-center md:text-left">
+          <h2 className="text-2xl font-semibold mb-6 text-blue-600 text-center md:text-left dark:text-blue-400">
             Learning Certificates
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 dark:bg-gray-800 ">
             {learningCerts.map((cert, idx) => (
               <div
                 key={idx}
-                className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition bg-white"
+                className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition bg-white dark:bg-gray-400"
               >
                 {/* Certificate Image */}
                 <img
@@ -73,7 +74,7 @@ function Certificates() {
                 {/* Certificate Info */}
                 <div>
                   <p className="font-semibold text-lg">{cert.title}</p>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-sm text-gray-600 dark:text-gray-100">
                     {cert.issuer} - {cert.year}
                   </p>
                 </div>
@@ -101,8 +102,8 @@ function Certificates() {
                 />
                 {/* Award Info */}
                 <div>
-                  <p className="font-semibold text-lg">{award.title}</p>
-                  <p className="text-sm text-gray-600">
+                  <p className="font-semibold text-xl ">{award.title}</p>
+                  <p className="text-lg text-gray-600 dark:text-gray-800">
                     {award.issuer} - {award.year}
                   </p>
                 </div>

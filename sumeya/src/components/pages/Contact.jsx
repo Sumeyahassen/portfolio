@@ -6,7 +6,7 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-
+// import ContactApi from "../../api/ContactApi";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -15,13 +15,15 @@ function Contact() {
   });
 
   const handleChange = (e) => {
+    // in this contaceste name mense the inpote property
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
+    // what is the important of preveyes defolt
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/send-email", {
+    const res = await fetch("http://localhost:7000/send-email", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
@@ -40,11 +42,12 @@ function Contact() {
         </h1>
         <form
           onSubmit={handleSubmit}
-          className="w-full bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md space-y-4"
+          className="w-full bg-white dark:bg-gray-700 p-6 text-black rounded-lg shadow-md space-y-4"
         >
           <input
             type="text"
             name="name"
+            required
             placeholder="Your Name"
             onChange={handleChange}
             className="w-full border px-3 py-2 rounded focus:outline-none focus:ring focus:ring-blue-300"
@@ -52,6 +55,7 @@ function Contact() {
           <input
             type="email"
             name="email"
+            required
             placeholder="Your Email"
             onChange={handleChange}
             className="w-full border px-3 py-2 rounded focus:outline-none focus:ring focus:ring-blue-300"
@@ -59,11 +63,12 @@ function Contact() {
           <textarea
             rows="4"
             name="message"
+            required
             placeholder="Your Message"
             onChange={handleChange}
             className="w-full border px-3 py-2 dark:text-gray-800 rounded focus:outline-none focus:ring focus:ring-blue-300"
           ></textarea>
-          <button className="w-full bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition" >
+          <button className="w-full bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
             Send Message
           </button>
         </form>

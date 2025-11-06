@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import myImage from "../../assets/Sumeya.png";
+import myImage from "../../assets/a.png";
 
 function Home() {
   const roles = [
@@ -10,29 +10,29 @@ function Home() {
   ];
 
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 ">
+    <section className="flex  flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 lg:ml-14">
       {/* Left Side (Text) */}
       <div className="text-center md:text-left md:w-1/2 space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">
-          Hi, I'm <span className="text-blue-600">Sumeya Hassen</span>
+          👋, I'm <span className="text-blue-600">Sumeya Hassen</span>
         </h1>
 
         {/* Animated Roles */}
-        <div className="flex flex-col space-y-3">
+        <div className="flex flex-col space-y-3 text-xl">
           {roles.map((role, index) => (
             <motion.p
               key={index}
               className="text-lg text-gray-700 dark:text-gray-200 font-medium"
               initial={{ y: 40, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, delay: index * 0.6 }}
+              transition={{ duration: 1.5, delay: index * 1 }}
             >
               {role}
             </motion.p>
           ))}
         </div>
 
-        <p className="text-gray-600 dark:text-gray-300 max-w-md">
+        <p className="text-gray-600 dark:text-gray-300 max-w-md text-lg">
           I build creative, functional, and user-friendly apps that solve
           real-world problems.
         </p>
@@ -41,10 +41,7 @@ function Home() {
           <a href="#about">More</a>
         </button>
         <button className="mt-4 px-6 ml-2 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
-          <a
-            href="/Sumeya_Hassen_CV.pdf"
-            download="Sumeya_Hassen_CV.pdf"
-          >
+          <a href="/Sumeya_Hassen_CV.pdf" download="Sumeya_Hassen_CV.pdf">
             Download CV
           </a>
         </button>

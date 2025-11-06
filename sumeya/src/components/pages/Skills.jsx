@@ -28,13 +28,13 @@ import { GiTeamIdea, GiProgression } from "react-icons/gi";
 function Skills() {
   const skills = [
     {
-      name: "Languages",
+      name: "Programming Languages",
       icon: (
         <div className="flex space-x-3">
-          <SiJavascript className="text-yellow-400 text-4xl" />
+          <SiJavascript className="text-yellow-500 text-4xl" />
           <SiDart className="text-blue-400 text-4xl" />
           <FaJava className="text-red-600 text-4xl" />
-          <SiPython className="text-yellow-300 text-4xl" />
+          <SiPython className="text-indigo-900 text-4xl" />
           <SiCplusplus className="text-blue-800 text-4xl" />
         </div>
       ),
@@ -43,8 +43,8 @@ function Skills() {
       name: "Frontend",
       icon: (
         <div className="flex space-x-3">
-          <FaReact className="text-blue-600 text-4xl" />
-          <SiFlutter className="text-cyan-500 text-4xl" />
+          <FaReact className="text-blue-600 text-4xl hover:scale-110 transition-transform" />
+          <SiFlutter className="text-blue-400 text-4xl" />
           <SiTailwindcss className="text-blue-400 text-4xl" />
           <SiBootstrap className="text-purple-600 text-4xl" />
         </div>
@@ -83,27 +83,29 @@ function Skills() {
       name: "Soft Skills",
       icon: (
         <div className="flex space-x-3">
-      <FaLightbulb className="text-yellow-500 text-4xl" />,
-      <FaHandshake className="text-green-500 text-4xl" />,
-      <FaComments className="text-purple-500 text-4xl" />,
-      <GiTeamIdea className="text-pink-500 text-4xl" />,
-      <GiProgression className="text-red-500 text-4xl" />
-      </div>
+          <FaLightbulb className="text-yellow-500 text-4xl" />,
+          <FaHandshake className="text-green-500 text-4xl" />,
+          <FaComments className="text-purple-500 text-4xl" />,
+          <GiTeamIdea className="text-pink-500 text-4xl" />,
+          <GiProgression className="text-red-500 text-4xl" />
+        </div>
       ),
     },
   ];
 
   return (
-    <section  className="min-h-screen  flex flex-col items-center px-6 py-12">
+    <section className="min-h-screen  flex flex-col items-center px-6 py-12">
       <h1 className="text-4xl font-bold mb-10">My Skills</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {skills.map((skill, idx) => (
+        {skills.map((skill, index) => (
           <div
-            key={idx}
+            key={index}
             className="flex flex-col items-center bg-white dark:bg-gray-200 p-20 rounded-lg shadow hover:scale-110 transition-transform"
           >
             {skill.icon}
-            <p className="mt-4 font-semibold text-lg dark:text-gray-800">{skill.name}</p>
+            <p className="mt-4 font-semibold text-xl dark:text-gray-800">
+              {skill.name}
+            </p>
           </div>
         ))}
       </div>
