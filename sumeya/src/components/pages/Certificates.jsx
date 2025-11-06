@@ -1,10 +1,10 @@
 import React from "react";
-import cpp from "@/assets/c++.png";
+import cpp from "@/assets/cpp.png";
 import android from "@/assets/andro.png";
 import hult from "@/assets/hultg.png";
 import bit from "@/assets/bit.png";
 import frontend from "@/assets/ethiodencer.jpg";
-import agrigard from "@/assets/agrigard.jpg"
+import agrigard from "@/assets/agrigard.jpg";
 
 function Certificates() {
   const learningCerts = [
