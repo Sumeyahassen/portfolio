@@ -1,5 +1,5 @@
 import React from "react";
-import cpp from "@/assets/cpp.png";
+import plp from "@/assets/plp.png";
 import android from "@/assets/andro.png";
 import hult from "@/assets/hultg.png";
 import bit from "@/assets/bit.png";
@@ -24,26 +24,26 @@ function Certificates() {
       title: "PLP Program - Software Development",
       issuer: "PLP Academy",
       year: "2024",
-      img: cpp,
+      img: plp,
     },
   ];
 
   const awards = [
     {
       title: "Derash Project Recognition",
-      issuer: "Inshall Point",
+      issuer: "Ethiopia Bahirdar University  Hult Prize",
       year: "2024",
       img: hult,
     },
     {
       title: "Best Innovative Idea",
-      issuer: "Bahir Dar University",
+      issuer: "Bahir Dar University BIT CDC",
       year: "2025",
       img: bit,
     },
     {
-      title: "Best Innovative Idea",
-      issuer: "Bahir Dar University",
+      title: "AgriGard Solution Award",
+      issuer: "Ethiopia Inovation  ministry",
       year: "2025",
       img: agrigard, // fallback path
     },
