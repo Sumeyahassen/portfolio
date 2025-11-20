@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 10000;
 app.get("/send-email",(req,res)=>{
   res.send("Hello from the backend!");
 })
