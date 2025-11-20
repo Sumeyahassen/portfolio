@@ -9,7 +9,7 @@ const sendEmail = async (e) => {
   };
 
   try {
-    const response = await fetch('http://localhost:7000/send-email', {  // Use your backend URL here
+    const response = await fetch('https://portfolio-backend-green-theta.vercel.app/send-email', {  // Use your backend URL here
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
@@ -18,7 +18,7 @@ const sendEmail = async (e) => {
     console.log(data);
 
     if (response.ok) {
-      alert('Email sent successfully!');
+      alert('Email sent successfully! ');
     } else {
       alert('Failed to send email.');
     }
