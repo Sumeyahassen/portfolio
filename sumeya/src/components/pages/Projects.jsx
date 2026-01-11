@@ -6,6 +6,7 @@ import admin from "@/assets/admin.png";
 import shoose from "@/assets/Shoose.png";
 import bank from "@/assets/bank.png";
 import farmatec from "@/assets/farmatec.png";
+import porti from "@/assets/porti.png"
 
 function Projects() {
   return (
@@ -118,7 +119,7 @@ function Projects() {
         <div className="bg-red-50 p-4 rounded-lg shadow">
           <h3 className="font-medium">My portipoliyo website</h3>
           <img
-            src={admin}
+            src={porti}
             alt="Web Project 3"
             className="h-40 w-full object-cover rounded-lg mt-2"
           />
