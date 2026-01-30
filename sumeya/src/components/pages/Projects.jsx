@@ -92,7 +92,7 @@ function Projects() {
         Web Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-cyan-50 p-4 rounded-lg shadow">
+        <div className="bg-sky-50 p-4 rounded-lg shadow">
           <h3 className="font-medium">Health emegensiy Supported web App</h3>
           <img
             src={farmatec}
@@ -104,7 +104,7 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-orange-50 p-4 rounded-lg shadow">
+        <div className="bg-sky-50 p-4 rounded-lg shadow">
           <h3 className="font-medium">Randem Chat app Admin Dashbord</h3>
           <img
             src={admin}
@@ -116,7 +116,7 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-red-50 p-4 rounded-lg shadow">
+        <div className="bg-sky-50 p-4 rounded-lg shadow">
           <h3 className="font-medium">My portipoliyo website</h3>
           <img
             src={porti}

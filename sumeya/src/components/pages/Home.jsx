@@ -10,7 +10,9 @@ function Home() {
   ];
 
   return (
-    <section className="flex  flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 lg:ml-14">
+    <section className="
+    
+    flex  flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 lg:ml-14">
       {/* Left Side (Text) */}
       <div className="text-center md:text-left md:w-1/2 space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100">

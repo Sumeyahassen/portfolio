@@ -10,11 +10,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-serif">
       <NaveBare />
 
       {/* Each section has an id for scrolling */}
-      <section id="home">
+      <section id="home "
+        className=""
+      >
         <Home />
       </section>
       <hr className="dark:bg-gray-600" />
@@ -37,7 +39,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
-    
+
       <Footer />
     </div>
   );

@@ -54,10 +54,10 @@ END:VCARD
           fgColor={"#000000"}
           level={"H"}
           includeMargin={true}
-          className="rounded-lg shadow-lg mb-4"
+          className="rounded-xl shadow-lg mb-4"
         />
-        <p className="text-xl text-gray-700 dark:text-gray-200 mt-2 inline-flex items-center gap-2">
-          <FaMobileAlt size={30} color="blue" /> Scan for my contact info
+        <p className="text-xl text-gray-700 dark:text-gray-200 mt-2 inline-flex items-center gap-2 pb-5">
+          <FaMobileAlt size={30} color="blue " /> Scan for my contact info
         </p>
       </div>
     </section>
