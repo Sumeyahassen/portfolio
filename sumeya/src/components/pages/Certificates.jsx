@@ -103,7 +103,7 @@ function Certificates() {
                 {/* Award Info */}
                 <div>
                   <p className="font-semibold text-xl ">{award.title}</p>
-                  <p className="text-lg text-gray-100 dark:text-gray-100">
+                  <p className="text-lg text-black dark:text-gray-100">
                     {award.issuer} - {award.year}
                   </p>
                 </div>
