@@ -100,7 +100,7 @@ function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col items-center bg-white dark:bg-gray-200 p-20 rounded-lg shadow hover:scale-110 transition-transform"
+            className=" rounded-tl-2xl rounded-br-2xl flex flex-col items-center bg-white dark:bg-gray-200 p-20 rshadow hover:scale-110 transition-transform"
           >
             {skill.icon}
             <p className="mt-4 font-semibold text-xl dark:text-gray-800">

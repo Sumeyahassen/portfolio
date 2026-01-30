@@ -14,7 +14,7 @@ function Projects() {
       <h1 className="text-2xl font-bold mb-4">Problem Solver Projects</h1>
 
       {/* Mobile Apps */}
-      <h1 className="text-4xl font-semibold mb-2 text-center text-orange-400">
+      <h1 className="text-lg font-semibold mb-2 text-center text-white">
         Mobile Apps
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -88,7 +88,7 @@ function Projects() {
       </div>
 
       {/* Web Projects */}
-      <h2 className="text-4xl font-semibold mt-8 mb-2 text-center text-green-400">
+      <h2 className="text-lg font-semibold mt-8 mb-2 text-center text-white">
         Web Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

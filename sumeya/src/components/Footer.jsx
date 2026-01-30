@@ -1,6 +1,7 @@
 import { FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa";
 
 function Footer() {
+  const year=new Date().getFullYear();
   return (
     <footer className="bg-gray-700 dark:bg-gray-800 text-white py-4 px-6">
       <div className="max-w-4xl mx-auto flex justify-center space-x-6">
@@ -27,7 +28,7 @@ function Footer() {
         </a>
       </div>
       <p className="text-center text-sm text-gray-400 mt-6">
-        © 2025 Sumeya Hassen. All rights reserved.
+        © {year} Sumeya Hassen. All rights reserved.
       </p>
     </footer>
   );
