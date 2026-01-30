@@ -19,7 +19,7 @@ function Projects() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Project 1 */}
-        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
+        <div className=" p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">Shoose e-commers app</h3>
           <div className="flex justify-center">
             <img
@@ -41,7 +41,7 @@ function Projects() {
         </div>
 
         {/* Project 2 */}
-        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
+        <div className=" p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
             Power learn african bank app
           </h3>
@@ -65,7 +65,7 @@ function Projects() {
         </div>
 
         {/* Project 3 */}
-        <div className="bg-gray-50 p-4 rounded-lg shadow dark:bg-gray-800">
+        <div className=" p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
             Campus Student Support App
           </h3>
@@ -92,7 +92,7 @@ function Projects() {
         Web Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-sky-50 p-4 rounded-lg shadow">
+        <div className=" p-4 rounded-lg shadow">
           <h3 className="font-medium">Health emegensiy Supported web App</h3>
           <img
             src={farmatec}
@@ -104,7 +104,7 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-sky-50 p-4 rounded-lg shadow">
+        <div className=" p-4 rounded-lg shadow">
           <h3 className="font-medium">Randem Chat app Admin Dashbord</h3>
           <img
             src={admin}
@@ -116,7 +116,7 @@ function Projects() {
           </Button>
         </div>
 
-        <div className="bg-sky-50 p-4 rounded-lg shadow">
+        <div className=" p-4 rounded-lg shadow">
           <h3 className="font-medium">My portipoliyo website</h3>
           <img
             src={porti}

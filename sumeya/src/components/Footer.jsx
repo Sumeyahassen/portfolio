@@ -27,7 +27,7 @@ function Footer() {
           <FaTiktok className="text-2xl hover:text-black" />
         </a>
       </div>
-      <p className="text-center text-sm text-gray-400 mt-6">
+      <p className="text-center text-sm text-gray-200 mt-6">
         © {year} Sumeya Hassen. All rights reserved.
       </p>
     </footer>
