@@ -21,9 +21,9 @@ function ThemeToggle() {
         className="p-2 rounded-full dark:bg-gray-800 transition"
       >
         {darkMode ? (
-          <FaSun className="text-yellow-400" size={30} />
+          <FaSun className="text-yellow-200" size={20} />
         ) : (
-          <FaMoon className="text-gray-700" size={30} />
+          <FaMoon className="text-gray-600" size={20} />
         )}
       </button>
     </div>

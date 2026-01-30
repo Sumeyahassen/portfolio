@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <section className="
-    
+
     flex  flex-col-reverse md:flex-row items-center justify-center min-h-screen px-6 md:px-20 lg:ml-14">
       {/* Left Side (Text) */}
       <div className="text-center md:text-left md:w-1/2 space-y-6">
@@ -27,7 +27,7 @@ function Home() {
               className="text-lg text-gray-700 dark:text-gray-200 font-medium"
               initial={{ y: 40, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1.5, delay: index * 1 }}
+              transition={{ duration: 7, delay: index * 1 }}
             >
               {role}
             </motion.p>
