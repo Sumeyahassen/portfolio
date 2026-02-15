@@ -5,8 +5,9 @@ import myImage from "../../assets/a.png";
 function Home() {
   const roles = [
     "🚀 Flutter Developer",
-    "⚡ MERN Stack Developer",
+    "⚡ MERN & PERN Stack Developer",
     "🧩 Problem Analyzer & Solution Designer",
+    "UI/UX desigener ",
   ];
 
   return (
