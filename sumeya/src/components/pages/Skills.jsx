@@ -1,4 +1,5 @@
 import React from "react";
+import { DiPostgresql } from "react-icons/di";
 import {
   FaReact,
   FaNodeJs,
@@ -64,6 +65,7 @@ function Skills() {
       icon: (
         <div className="flex space-x-3">
           <SiMongodb className="text-green-600 text-4xl" />
+          <DiPostgresql className="text-blue-600 text-4xl"/>
           <SiMysql className="text-brown-700 text-4xl dark:text-gray-500" />
         </div>
       ),
