@@ -8,6 +8,7 @@ import bank from "@/assets/bank.png";
 import farmatec from "@/assets/farmatec.png";
 import porti from "@/assets/porti.png"
 import mohas from "@/assets/mohasCoach.png"
+import hm from "@/assets/hmComputer.png"
 
 function Projects() {
   return (
@@ -147,7 +148,22 @@ function Projects() {
             alt="Web Project 3"
             className="h-40 w-full object-cover rounded-lg mt-2"
           />
-          <Button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2">
+          <Button 
+          onClick={()=>window.open("https://sumeya-hassen.vercel.app/")}
+          className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2">
+            View <AiFillGithub />
+          </Button>
+        </div>
+         <div className=" p-4 rounded-lg shadow">
+          <h3 className="font-medium">HM Computer website</h3>
+          <img
+            src={hm}
+            alt="Web Project 4"
+            className="h-40 w-full object-cover rounded-lg mt-2"
+          />
+          <Button
+          onClick={()=>window.open("https://hmcomputer.vercel.app/")}
+           className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2">
             View <AiFillGithub />
           </Button>
         </div>
