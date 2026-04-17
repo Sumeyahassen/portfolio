@@ -7,6 +7,7 @@ import shoose from "@/assets/Shoose.png";
 import bank from "@/assets/bank.png";
 import farmatec from "@/assets/farmatec.png";
 import porti from "@/assets/porti.png"
+import mohas from "@/assets/mohasCoach.png"
 
 function Projects() {
   return (
@@ -85,7 +86,30 @@ function Projects() {
             View <AiFillGithub />
           </Button>
         </div>
+        
+        {/* Project 4 */}
+        <div className=" p-4 rounded-lg shadow dark:bg-gray-800">
+          <h3 className="font-medium text-center">
+           Mohas coahing App
+          </h3>
+          <div className="flex justify-center">
+            <img
+              src={mohas}
+              alt="Mobile Project 4"
+              className="w-auto h-72 object-contain rounded-lg mt-2"
+            />
+          </div>
+          <Button
+            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center justify-center gap-2 w-full"
+            onClick={() =>
+              window.open("https://github.com/Sumeyahassen/MOHAS.git")
+            }
+          >
+            View <AiFillGithub />
+          </Button>
+        </div>
       </div>
+      
 
       {/* Web Projects */}
       <h2 className="text-lg font-semibold mt-8 mb-2 text-center text-white">
