@@ -6,6 +6,7 @@ import bit from "@/assets/bit.png";
 import frontend from "@/assets/ethiodencer.jpg";
 import agrigard from "@/assets/agrigard.jpg";
 import mohas from "@/assets/mohas.png"
+import cursor from "@/assets/cursor.png"
 
 function Certificates() {
   const learningCerts = [
@@ -24,7 +25,7 @@ function Certificates() {
     {
       title: "PLP Program - Software Development",
       issuer: "PLP Academy",
-      year: "2024",
+      year: "2025",
       img: plp,
     },
   ];
@@ -53,6 +54,12 @@ function Certificates() {
       issuer: "Mohas Techonology",
       year: "2026",
       img: mohas, 
+    },
+      {
+      title: "Curdor",
+      issuer: "CURSOR AI",
+      year: "2025",
+      img: cursor, 
     },
   ];
 
