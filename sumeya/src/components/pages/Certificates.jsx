@@ -5,6 +5,7 @@ import hult from "@/assets/hultg.png";
 import bit from "@/assets/bit.png";
 import frontend from "@/assets/ethiodencer.jpg";
 import agrigard from "@/assets/agrigard.jpg";
+import mohas from "@/assets/mohas.png"
 
 function Certificates() {
   const learningCerts = [
@@ -45,7 +46,13 @@ function Certificates() {
       title: "AgriGard Solution Award",
       issuer: "Ethiopia Inovation  ministry",
       year: "2025",
-      img: agrigard, // fallback path
+      img: agrigard, 
+    },
+     {
+      title: "Mohas Coching Mobile app",
+      issuer: "Mohas Techonology",
+      year: "2026",
+      img: mohas, 
     },
   ];
 
