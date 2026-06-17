@@ -123,6 +123,7 @@ function Projects() {
             src={farmatec}
             alt="Web Project 1"
             className="h-100 w-full object-cover rounded-lg mt-2"
+            onClick={()=>window.open('https://yene-medtech-ethiopia.lovable.app')}
           />
           <Button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2">
             View <AiFillGithub />
@@ -135,6 +136,7 @@ function Projects() {
             src={admin}
             alt="Web Project 2"
             className="h-40 w-full object-cover rounded-lg mt-2"
+            onClick={()=>window.open("https://github.com/Hybrid-team-2/web_chatapp.git")}
           />
           <Button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2">
             View <AiFillGithub />
