@@ -39,7 +39,7 @@ END:VCARD
           .
         </p>
 
-        {/* ✅ Shadcn Button */}
+        {/* Shadcn Button */}
         <Button className="bg-blue-500 hover:bg-blue-600 text-white">
           <a href="#contact"> Contact Me</a>
         </Button>

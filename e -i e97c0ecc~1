@@ -1,0 +1,40 @@
+[33m6e3d387[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Remove .env from tracking
+[33m3b7ac5a[m Remove API key
+[33mba0cc57[m to add odoo developer info and install helemate dependansy
+[33m7fc2427[m deploye backend and work correctely the chate
+[33m97c0ecc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add groq-sdk
+[33mdd16380[m chat assistanse answer logic
+[33m17b1384[m the assistant design
+[33m69485e9[m chat assistans integerate backend logic
+[33mac8caf4[m to add projecte linkes
+[33m3ba2c0f[m add mohas project
+[33m1af6ff1[m to add cursore certificate
+[33m7d5c3ea[m to add mohas certificate
+[33mce13e4b[m to add postgrase
+[33m0818be6[m to add ui icone
+[33m2842869[m to add speshalization
+[33mac43c42[m to update   baseline browser mapping
+[33mded3f2f[m to chage  the texxt colore in ceritificate part
+[33mb15761d[m aanimation modifay
+[33m84f13c8[m color change
+[33m8dc0890[m layout modification
+[33m126a993[m to change font family and project page web bg colore
+[33m4b234ca[m  to add my portifolyo image
+[33me48b9f9[m  to eploye the backend  include the contactapi
+[33ma07c37a[m Fix package.json for Vercel deployment
+[33m9fa0455[m   add env depandanse
+[33m75fc7fe[m i fix  case problamr
+[33mf860086[m mearge the branch
+[33m9c87fad[m change the image extention to png
+[33m3fb753e[m change my image in assete folder
+[33md7c6a79[m i  try to deploye
+[33md165018[m the front end the backend connect sucssef fully
+[33mfa7144c[m to add certificate and some style  modification
+[33mb97d88b[m  the calling  dial app setap complated
+[33m6c43508[m Merge pull request #1 from Sumeyahassen/sumeya
+[33ma59caf5[m  to add my resume or cv in downlodable form
+[33m4ebca34[m to include footer social mediya links
+[33m79a3cbb[m  include the light and  dark mode and  so start the email sender backend
+[33m03a919e[m  i try to commplate the home,about and footer part
+[33meff44c9[m  complate the react setap and navebare
+[33m46543aa[m Initial commit

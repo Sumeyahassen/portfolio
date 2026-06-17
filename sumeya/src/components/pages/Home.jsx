@@ -8,6 +8,7 @@ function Home() {
     "⚡ MERN & PERN Stack Developer",
     "🧩 Problem Analyzer & Solution Designer",
     "🎨 UI/UX desigener ",
+    "🚟 ODOO ERP system developer ",
   ];
 
   return (

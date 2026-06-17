@@ -59,7 +59,7 @@ app.post("/api/chat", async (req, res) => {
 Use the information below to answer questions about Sumeya.
 
 Name: Sumeya Hassen
-Title: Intermediate Software Developer specializing in mobile and web app development
+Title: Intermediate Software Developer specializing in mobile and web app development include ERP system developer using ODOO
 Education: Software Engineering student at Bahir Dar University
 Email: sumeyahassensumi@gmail.com
 Phone: +251912380076

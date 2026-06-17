@@ -7,6 +7,7 @@ import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import Certificates from "./components/pages/Certificates";
 import Footer from "./components/Footer";
+import ChatWidget from "./ChatWidget";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
-
+      <ChatWidget/>
       <Footer />
     </div>
   );
