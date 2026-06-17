@@ -20,7 +20,7 @@ function Footer() {
           <FaTelegram className="text-2xl hover:text-blue-400" />
         </a>
         <a
-          href="https://www.tiktok.com/@sumeya_hassen_"
+          href="https://www.tiktok.com/@sumeya_hassen_m"
           target="_blank"
           rel="noopener noreferrer"
         >
