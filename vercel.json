@@ -1,5 +1,13 @@
 {
   "buildCommand": "cd sumeya && npm install && npm run build",
   "outputDirectory": "sumeya/dist",
-  "installCommand": "cd sumeya && npm install"
+  "installCommand": "cd sumeya && npm install",
+  "functions": {
+    "api/chat.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/chat" }
+  ]
 }
