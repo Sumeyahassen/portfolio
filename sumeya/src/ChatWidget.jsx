@@ -15,15 +15,21 @@ export default function ChatWidget() {
     setLoading(true);
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL || ""}/api/chat`, {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
       });
       const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.error || "Request failed");
+      }
       setMessages(prev => [...prev, { role: "assistant", text: data.reply }]);
     } catch (err) {
-      setMessages(prev => [...prev, { role: "assistant", text: "Error connecting to assistant." }]);
+      setMessages(prev => [
+        ...prev,
+        { role: "assistant", text: "Error connecting to assistant." },
+      ]);
     }
     setLoading(false);
   }
