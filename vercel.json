@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd sumeya && npm install && npm run build",
+  "outputDirectory": "sumeya/dist",
+  "installCommand": "cd sumeya && npm install"
+}
