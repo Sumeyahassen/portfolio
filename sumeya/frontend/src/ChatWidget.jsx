@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { IoChatbubbleEllipsesSharp } from "react-icons/io5";
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([]);
@@ -43,7 +43,7 @@ export default function ChatWidget() {
         aria-label="Open chat assistant"
         className="fixed bottom-5 right-5 w-14 h-14 rounded-full bg-blue-600 text-white text-2xl shadow-lg hover:bg-blue-700 transition-colors flex items-center justify-center z-50"
       >
-        💬
+        <IoChatbubbleEllipsesSharp  />
       </button>
     );
   }
