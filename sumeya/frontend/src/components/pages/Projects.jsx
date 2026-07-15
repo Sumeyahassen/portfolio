@@ -91,7 +91,7 @@ function Projects() {
         {/* Project 4 */}
         <div className=" p-4 rounded-lg shadow dark:bg-gray-800">
           <h3 className="font-medium text-center">
-           Mohas coahing App
+           Mohas coaching App
           </h3>
           <div className="flex justify-center">
             <img
@@ -144,7 +144,7 @@ function Projects() {
         </div>
 
         <div className=" p-4 rounded-lg shadow">
-          <h3 className="font-medium">My portipoliyo website</h3>
+          <h3 className="font-medium">My portfolio website</h3>
           <img
             src={porti}
             alt="Web Project 3"
